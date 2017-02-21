@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0"
+    },
+    "Amazon.Lambda.Core": "1.0.0*",
+    "Amazon.Lambda.Serialization.Json": "1.0.1",
+    "Amazon.Lambda.Tools": "1.1.0-preview1",
+    "Amazon.Lambda.DynamoDBEvents": "1.0.0",
+    "NEST": "5.0.1",
+    "AWSSDK.DynamoDBv2": "3.3.2.1",
+    "Elasticsearch.Net.Aws": "2.3.3",
+    "AWSSDK.CloudWatchEvents": "3.3.0.7"
+  },
+
+  "tools": {
+    "Amazon.Lambda.Tools": "1.1.0-preview1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
