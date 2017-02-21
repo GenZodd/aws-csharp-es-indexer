@@ -19,7 +19,7 @@ it sees what type of DynamoDb event it was and then calls the needed NEST comman
 
 I use the Lambda code to setup the configuration specifics of given DynamoDb type. In this case an "InventoryItem". 
 
-```charp
+```csharp
 	var settings = new ConnectionSettings(node, this.awsHttpConnection)
         .DisableDirectStreaming()
         .InferMappingFor<InventoryItem>(m => m.IdProperty(p => p.VIN))
@@ -39,7 +39,7 @@ it sees what type of DynamoDb event it was and then calls the needed NEST comman
 
 I use the Lambda code to setup the configuration specifics of given DynamoDb type. In this case an "InventoryItem". 
 
-```charp
+```csharp
 	var settings = new ConnectionSettings(node, this.awsHttpConnection)
         .DisableDirectStreaming()
         .InferMappingFor<InventoryItem>(m => m.IdProperty(p => p.VIN))
