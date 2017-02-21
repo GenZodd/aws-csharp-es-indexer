@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElasticSearchIndexer", "ElasticSearchIndexer\ElasticSearchIndexer\ElasticSearchIndexer.xproj", "{B25911E2-E429-4170-A7FD-BB26A5385357}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElasticSearchIndexer", "ElasticSearchIndexer\ElasticSearchIndexer.xproj", "{B25911E2-E429-4170-A7FD-BB26A5385357}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElasticSearchIndexer.Tests", "ElasticSearchIndexer\ElasticSearchIndexer.Tests\ElasticSearchIndexer.Tests.xproj", "{BA60ADF8-AEB1-4E3B-9E4C-DE5377FA7C35}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ElasticSearchIndexer.Tests", "ElasticSearchIndexer.Tests\ElasticSearchIndexer.Tests.xproj", "{BA60ADF8-AEB1-4E3B-9E4C-DE5377FA7C35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86CA6EE0-DC9C-433A-86E9-376EF390CAF3}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
